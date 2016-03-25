@@ -21,6 +21,12 @@ Directory where downloaded files will be temporarily stored.
 
 The URL from which SonarQube will be downloaded, and the resulting directory name (should match the download archive, without the archive extension).
 
+    # Install java, if True then dependency `geerlingguy.mysql` is subsequently included.
+    sonar_is_install_java:  True
+    # Install mysql, if True then dependency `geerlingguy.mysql` is subsequently included.
+    sonar_is_install_mysql: True
+
+    # Mysql credentials
     sonar_mysql_username: sonar
     sonar_mysql_password: sonar
     
