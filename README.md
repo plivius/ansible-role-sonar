@@ -43,6 +43,7 @@ JDBC settings for a connection to a MySQL database. Defaults presume the databas
 
 ## Dependencies
 
+These dependencies are included by default. Inclusion can be overridden with parameters: `sonar_is_install_java: False`, `sonar_is_install_mysql: False`.
   - geerlingguy.java
   - geerlingguy.mysql
 
