@@ -5,6 +5,10 @@ workspace: /root
 sonar_download_url: https://sonarsource.bintray.com/Distribution/sonarqube/sonarqube-4.5.6.zip
 sonar_version_directory: sonarqube-4.5.6
 
+# Install java and mysql (appropriate dependencies are subsequently included)
+sonar_is_install_java: True
+sonar_is_install_mysql: True
+
 # MySQL database connection details.
 sonar_mysql_username: sonar
 sonar_mysql_password: sonar
